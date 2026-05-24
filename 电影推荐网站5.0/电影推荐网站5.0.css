@@ -1,0 +1,245 @@
+/* ============================================
+   海洋蓝 · 极简欧式风格
+   主背景: #f0f4f8   卡片: #ffffff
+   主强调: #1a3a5c   次强调: #2d6a9f
+   分割线: #dce6ed   阴影: rgba(26, 58, 92, 0.06)
+   ============================================ */
+
+body {
+  margin: 0%;
+  height: 100vh;
+  background-color: #f0f4f8;
+  font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #1a1a2e;
+}
+
+/* ========== 弹窗 ========== */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 200px;
+  border: 1px solid #dce6ed;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(26, 58, 92, 0.1);
+  text-align: center;
+}
+
+/* ========== 卡片阴影（替代原 inset 阴影） ========== */
+.yinying {
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(26, 58, 92, 0.06);
+}
+
+/* ========== 布局工具类 ========== */
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* ========== 图片悬停放大 ========== */
+.imgfangda {
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 4px;
+}
+
+.imgfangda:hover {
+  transform: scale(1.06);
+}
+
+/* ========== 文字悬停效果 ========== */
+.wenzifangda {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.wenzifangda2 {
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.wenzifangda:hover {
+  color: #2d6a9f;
+}
+
+.wenzifangda2:hover {
+  color: #2d6a9f;
+}
+
+/* ========== 文本展开/收起 ========== */
+.text {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text::before {
+  content: "";
+  float: right;
+  height: calc(100% - 1.5em);
+}
+
+.btn {
+  float: right;
+  clear: both;
+  border-radius: 6px;
+  color: #2d6a9f;
+}
+
+.btn::before {
+  content: "展开";
+}
+
+.exp {
+  display: none;
+}
+
+.exp:checked + .text {
+  -webkit-line-clamp: 999;
+  line-clamp: 999;
+  max-height: none;
+}
+
+.exp:checked + .text .btn::before {
+  content: "收起";
+}
+
+/* ========== 渐变背景 ========== */
+
+/* 主渐变 —— 纯净白到极浅蓝（替代原紫白渐变） */
+.jianbian0 {
+  background-image: linear-gradient(135deg, #ffffff 0%, #e8f0f8 100%);
+}
+
+/* 统一海洋蓝渐变（原各种彩色渐变全部统一） */
+.jianbian1,
+.jianbian2,
+.jianbian3,
+.jianbian4,
+.jianbian5 {
+  background-image: linear-gradient(135deg, #ffffff 0%, #e8f0f8 100%);
+}
+
+/* ========== 间距工具类 ========== */
+.mg8 {
+  margin: 8px;
+}
+
+.mgr8 {
+  margin-right: 8px;
+}
+
+.mgt8 {
+  margin-top: 8px;
+}
+
+.mgb8 {
+  margin-bottom: 8px;
+}
+
+/* ========== 导航栏 ========== */
+.daohan {
+  padding: 14px 20px;
+  border-bottom: 1px solid #dce6ed;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.daohan:hover {
+  background-color: #e8f0f8;
+}
+
+/* ========== 链接样式 ========== */
+.quxiahuaxian {
+  text-decoration: none;
+}
+
+a {
+  color: #1a3a5c;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #2d6a9f;
+  text-decoration: underline;
+}
+
+.quxiahuaxian:hover {
+  text-decoration: underline;
+}
+
+/* ========== 现代化极简按钮 ========== */
+.btn-primary {
+  display: inline-block;
+  background: #1a3a5c;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 40px;
+  font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(26, 58, 92, 0.15);
+  transition: all 0.25s;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background: #2d6a9f;
+  box-shadow: 0 4px 16px rgba(26, 58, 92, 0.25);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(26, 58, 92, 0.15);
+}
+
+/* 次要按钮 —— 描边风格 */
+.btn-secondary {
+  display: inline-block;
+  background: transparent;
+  color: #1a3a5c;
+  border: 1.5px solid #1a3a5c;
+  border-radius: 6px;
+  padding: 8px 24px;
+  font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.btn-secondary:hover {
+  background: #1a3a5c;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(26, 58, 92, 0.15);
+  transform: translateY(-1px);
+}
+
+.btn-secondary:active {
+  transform: translateY(0);
+}
+
+/* ========== 文字缩进 ========== */
+.wenzi {
+  text-indent: 2em;
+}
