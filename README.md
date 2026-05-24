@@ -1,9 +1,23 @@
-## 电影推荐网站
+## 🎬 电影推荐网站
 
-### 此仓库相关介绍
+### 📁 此仓库相关介绍
 
-这个仓库是用来托管存放由前端三件套所完成的电影推荐网站项目的，没有涉及到后端接口数据，纯三件套实现（html、css、javascript）
+本仓库存放纯前端三件套打造的电影推荐网站项目，全程基于 HTML、CSS、JavaScript 开发，未对接后端接口数据
 
-里面的相关链接跳转都是别的网站，此项目也是我最初接触前端，参考别人的想法，一步步实现的
+页面跳转均外链至第三方站点，这是我入门前端时，参考思路一步步实操完成的作品😆
 
-虽然现在看很简陋，但是当时做出来之后也是感到非常快乐的，所以这个项目还是很有意义的😁
+如今回看页面样式略显朴素，但当初完成项目时成就感满满，对我而言有着特别的成长意义✨
+
+### 📝 版本记录
+
+后续会持续记录每一轮 GitHub 部署版本，见证小站点一步步迭代优化的过程📈
+
+#### [https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站1.0.html](🎞️ 电影推荐网站1.0)
+
+#### [https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站2.0.html](🎞️ 电影推荐网站2.0)
+
+#### [https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站3.0/电影推荐网站3.0.html](🎞️ 电影推荐网站3.0)
+
+#### [https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站4.0/电影推荐网站4.0.html](🎞️ 电影推荐网站4.0)
+
+
