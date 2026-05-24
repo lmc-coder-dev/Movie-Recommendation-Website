@@ -12,12 +12,13 @@
 
 后续会持续记录每一轮 GitHub 部署版本，见证小站点一步步迭代优化的过程📈
 
-#### [https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站1.0.html](🎞️ 电影推荐网站1.0)
+#### [🎞️ 电影推荐网站1.0](https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站1.0.html)
 
-#### [https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站2.0.html](🎞️ 电影推荐网站2.0)
+#### [🎞️ 电影推荐网站2.0](https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站2.0.html)
 
-#### [https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站3.0/电影推荐网站3.0.html](🎞️ 电影推荐网站3.0)
+#### [🎞️ 电影推荐网站3.0](https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站3.0/电影推荐网站3.0.html)
 
-#### [https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站4.0/电影推荐网站4.0.html](🎞️ 电影推荐网站4.0)
+#### [🎞️ 电影推荐网站4.0](https://lmc-coder-dev.github.io/Movie-Recommendation-Website/电影推荐网站4.0/电影推荐网站4.0.html)
+
 
 
